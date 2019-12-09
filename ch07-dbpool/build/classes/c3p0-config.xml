@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>  
+    <named-config name="oracle-config">   
+        <property name="jdbcUrl">jdbc:oracle:thin:@localhost:1521:TESTEDU</property>  
+        <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>  
+        <property name="user">scott</property>  
+        <property name="password">tiger</property>  
+        <property name="initialPoolSize">3</property>  
+        <property name="minPoolSize">2</property>  
+        <property name="maxPoolSize">10</property>  
+    </named-config>  
+</c3p0-config> 
